@@ -17,3 +17,9 @@ main()
         printf("Area = %f\n", area);
     }
 }
+float process(float r)
+{
+    float a;
+    a=PI*r*r;
+    return(a);
+}
