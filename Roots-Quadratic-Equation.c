@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-main()
+int main()
 {
     float a,b,c,d,x1,x2;
     printf("a= ");
@@ -13,4 +13,5 @@ main()
     x1=(-b+d)/(2*a);
     x2=(-b-d)/(2*a);
     printf("\nx1 = %e    x2 = %e",x1,x2);
+    return 0;
 }
